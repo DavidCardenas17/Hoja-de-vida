@@ -1,0 +1,136 @@
+*{
+    margin: 0 auto;
+    
+    
+}
+.contenedor{
+    width: 1000px;
+    height: 1050px;
+    border: 2px solid #000;
+    background-color: beige;
+    display: flex;
+    
+}
+ 
+.foto{
+    width: 209px;
+    height: 270px;
+    flex-direction: column;
+    background-color: rgb(90, 89, 143);
+        
+}
+
+.datos{
+    width: 209px;
+    height: 250px;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(90, 89, 143);
+    
+    
+}
+
+.habilidades{
+    width: 209px;
+    height: 250px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 89, 143);
+}
+
+.Intereses{
+    width: 209px;
+    height: 280px;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    background-color: rgb(90, 89, 143);
+}
+
+.general{
+    
+    width: 780px;
+    height: 1040px;
+    flex-wrap: wrap;
+    margin: 5px;
+    text-align: center;
+    display: flex;
+  }
+
+.nombre {
+    width: 770px;
+    height: 100px;
+    flex-direction: column;
+    text-align: center;
+    color:#373150;
+    margin: 5px;
+    padding: 10px;
+    
+}
+
+.descripcion {
+    
+    width: 770px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin: 5px;
+    
+}
+
+
+.personal{
+
+ width: 770px;
+ height: 195px;
+ display: flex;
+ flex-direction: column;  
+ margin: 5px;
+ text-align: center;
+ 
+ 
+
+ 
+}
+
+.negrilla {
+    font-weight: bolder;
+    color: rgb(244, 244, 247);
+    text-align: center;
+    align-items: center;
+    
+}
+
+.educacion {
+    width: 770px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; 
+    margin: 5px;
+}
+
+
+
+.experiencia{
+    width: 770px;
+    height: 200px;
+    display: flex;
+    flex-direction: column; 
+    margin: 5px;
+    padding: 30px;
+
+
+}
+
+h2 {
+    color: white;
+    background-color: rgb(90, 89, 143);
+    border-radius: 10px;
+    padding: 5px;
+    
+
+}
